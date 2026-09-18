@@ -1,4 +1,4 @@
-#Clean up the following variable to give the clean version in lower case. Using inbuilt methods in the str class 
+
 
 name1="  JOHn  ."
 name1=name1.replace('.', '')

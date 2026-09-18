@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 my_name="Kalasinga yvonne"
 my_name.capitalize()
 
@@ -30,7 +30,6 @@ print(sentence7)
 
 sentence8="Alex:Brian:Mark:Kevin"
 sentence8=sentence8.split(':')
-=======
 my_name="Kalasinga yvonne"
 my_name.capitalize()
 
@@ -62,5 +61,4 @@ print(sentence7)
 
 sentence8="Alex:Brian:Mark:Kevin"
 sentence8=sentence8.split(':')
->>>>>>> origin/main
 print(sentence8)
