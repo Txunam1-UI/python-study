@@ -17,8 +17,11 @@ temp=56.8926
 print(round(temp,3))
 
 
-temp=56.8926
-temp=56.8926-56
-print(round(temp,4))
-sum=temp*10
-print(round(sum,3))
+temp1=56.8926
+temp1=str(temp)
+print(temp1[3:])
+temp1=temp1[3]+'.'+ temp1[4:]
+print(temp1)
+temp1=float(temp1)
+print(type(temp1))
+
