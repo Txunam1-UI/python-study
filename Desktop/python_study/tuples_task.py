@@ -24,25 +24,25 @@ values = (15, 5, 30, 25, 10)
 values=list(values)
 print(type(values))
 
-values.sort(reverse=False)
+values.sort()
 print(values)
+
 values=tuple(values)
 print(type(values))
 
 fruits = ("apple", "banana", "cherry", "banana", "mango", "banana")
+
+print(fruits.count('banana'))
+
 fruits=list(fruits)
 
 print(type(fruits))
-f=fruits.count('banana')
-print(f)
 
-f=fruits.count('banana')
-print(f)
-
-while "banana" in fruits:
- fruits.remove("banana")
-
+fruits.remove('banana')
+fruits.remove('banana')
+fruits.remove('banana')
 print(fruits)
+
 
 fruits=tuple(fruits)
 print(type(fruits))
