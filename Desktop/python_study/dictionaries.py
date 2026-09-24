@@ -4,7 +4,8 @@ student1={
 'age':21,
 'country':'kenya',
 'gender':'male',
-'name':'alex'
+'name':'alex',
+'hobbies':['hiking','painting','cycling']
 }
 print(type(student1))
 print(student1['name'])
@@ -23,3 +24,19 @@ print(student1)
 student1['name']='txunami'
 student1['country']='Egypt'
 print(student1)
+
+#add new key skills with values['py','web dev','UI']
+student1['skills']=['py','web dev','UI']
+
+print(student1['skills'][1])
+print(student1['hobbies'][0])
+
+
+#keys
+print(student1.keys())
+#values
+print(student1.values())
+#items
+print(student1.items())
+#get
+print(student1.get('age'))#used in projects cause it does not return an error
