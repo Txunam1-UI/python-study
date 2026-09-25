@@ -53,12 +53,11 @@ print(my_ds)
 # BONUS CHALLENGE
 # Print the following individually:
 # Currency: KES
-print('currency:',my_ds[3][2]['currency'])
+
 # Amount: 1500
-print('amount:', my_ds[3][2]['amount'])
+
 # Student: Brian
-print("Student:", my_ds[3][2]["student"]["name"])
+
 # Subject: Django
-print("Subject:", my_ds[3][2]["subjects"][4])
+
 # Technology: React
-print("Technology:", my_ds[5][2][2])
